@@ -1,0 +1,21 @@
+{
+  "train_total": 100000,
+  "train_kept": 99102,
+  "valid_total": 500,
+  "valid_kept": 486,
+  "test_total": 200,
+  "test_kept": 179,
+  "zh_vocab_size": 25501,
+  "en_vocab_size": 25870,
+  "settings": {
+    "train": "/root/Course/final_project/AP0004_Midterm&Final_translation_dataset_zh_en/train_100k.jsonl",
+    "valid": "/root/Course/final_project/AP0004_Midterm&Final_translation_dataset_zh_en/valid.jsonl",
+    "test": "/root/Course/final_project/AP0004_Midterm&Final_translation_dataset_zh_en/test.jsonl",
+    "outdir": "/root/Course/final_project/nmt_data_jieba_100k",
+    "min_freq": 3,
+    "max_src_len": 60,
+    "max_tgt_len": 60,
+    "max_vocab": 50000,
+    "zh_tokenizer": "auto"
+  }
+}
