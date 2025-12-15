@@ -102,6 +102,11 @@ python inference.py \
 
 For MT5 inference, please download `google/mt5-small` from HuggingFace
 and specify the local directory using `--mt5_dir`.
+> For the fine-tuned MT5 model, due to GitHub file size limitations,
+the fine-tuned checkpoints are not included in this repository.
+Inference with MT5 in inference.py loads the base mt5-small model
+for demonstration purposes only.
+
 ```bash
 python inference.py \
   --model_type mt5 \
