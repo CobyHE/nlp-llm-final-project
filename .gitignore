@@ -1,0 +1,18 @@
+# python
+__pycache__/
+*.pyc
+
+# data
+nmt_data_jieba/
+nmt_data_jieba_100k/
+AP0004_Midterm&Final_translation_dataset_zh_en/
+
+# checkpoints & runs
+checkpoints/
+mt5_finetune_runs/
+
+# notebooks cache
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
