@@ -100,7 +100,8 @@ python inference.py \
 ```
 ### C) mT5 (pretrained language model)
 
-For mT5 inference, only --mt5_dir and input text are required:
+For MT5 inference, please download `google/mt5-small` from HuggingFace
+and specify the local directory using `--mt5_dir`.
 ```bash
 python inference.py \
   --model_type mt5 \
